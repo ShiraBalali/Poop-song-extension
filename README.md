@@ -15,8 +15,8 @@ To install this extension locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/YouTube-Poop-Song-Finder.git
-2. Open Chrome and go to the Extensions page by typing chrome://extensions/ in the URL bar.
-3. Enable Developer Mode in the top-right corner.
+2. Open Chrome and go to the Extensions page.
+3. Enable Developer Mode.
 4. Click on Load unpacked and select the folder where you cloned this repository.
 5. The extension should now appear in the browser's extension toolbar.
 
