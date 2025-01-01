@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Poop Song Finder",
+  "version": "1.0",
+  "description": "Search YouTube for the poop song with your name.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
